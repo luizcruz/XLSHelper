@@ -5,7 +5,7 @@ Copy XLSHelper to app/View/Helpers/ and follow instructions below:
 
 
 ## Controller/ModelController.php
-```
+```php
 public $helpers = array('Xls');
 
 
@@ -20,7 +20,7 @@ public function export() {
 
 ```
 ## View/Model/export.ctp
-```
+```php
 //Header 
 $line= $data[0]['Model'];
 $this->XLS->addRow(array_keys($line));
