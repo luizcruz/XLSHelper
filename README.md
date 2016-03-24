@@ -3,9 +3,8 @@ XLS Helper for CakePHP 2.x
 
 Copy XLSHelper to app/View/Helpers/ and follow instructions below: 
 
-***************************************************************
+
 * Controller/ModelController.php
-***************************************************************
 
 public $helpers = array('Xls');
 
@@ -20,9 +19,7 @@ public function export() {
 
 
 
-***************************************************************
 * View/Model/export.ctp
-***************************************************************
 
 //Header 
 $line= $data[0]['Model'];
