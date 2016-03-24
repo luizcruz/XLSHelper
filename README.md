@@ -5,7 +5,7 @@ Copy XLSHelper to app/View/Helpers/ and follow instructions below:
 
 
 * Controller/ModelController.php
-
+```
 public $helpers = array('Xls');
 
 
@@ -18,9 +18,9 @@ public function export() {
 	}
 
 
-
+```
 * View/Model/export.ctp
-
+```
 //Header 
 $line= $data[0]['Model'];
 $this->XLS->addRow(array_keys($line));
@@ -35,3 +35,4 @@ foreach ($data as $d)
 //Render File
 $filename='output';
 echo  $this->XLS->render($filename);
+```
