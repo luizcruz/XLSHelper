@@ -1,5 +1,5 @@
 # XLSHelper
-XLS Helper for CakePHP 2.x
+XLS Helper for CakePHP 2.x - Exports a Model data to Excel. Useful for backup purposes. 
 
 Copy XLSHelper to app/View/Helpers/ and follow instructions below: 
 
